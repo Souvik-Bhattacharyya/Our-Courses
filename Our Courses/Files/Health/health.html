@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="health.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                        <a aria-current="page" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--wrapper start-->
+    <div class="wrapper">
+        <!--sidebar start-->
+        <button type="button" id="sidebarCollapse" class="btn btn-primary"><i style=" font-size: 20px;"
+                class="fa fa-chevron-right"></i>
+        </button>
+        <div id="sidebar" class="nav-inner">
+            <div class="accordion" id="accordionExample">
+                <div class="heading">Sub Menu</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Engineering
+                        </a>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="../../eng.html">Computer Science</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Electrical</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Civil</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Electronics</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Mechanical</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Management & Tech
+                        </a>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">MBA</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">BBA</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">BCA</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">Cyber Security</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">Multimedia, Animation & Graphics</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Health Care
+                        </a>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="#hm">Hospital Management</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="#bo">Bachelor of Optometry</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="#bmlt">Medical Lab Technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Hospitality
+                        </a>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="../Hospital/hospital.html">Hospitality & Hotel Administration</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sidebar end-->
+
+        <div id="content">
+            <div class="manage">
+                <div id="hm" class="mt-5">
+                    <h1 class="hero-main-heading mb-5"><i class=" icon fa fa-book"></i> HOSPITAL MANAGEMENT (B.B.A)</h1>
+                    <h2 class="about-heading">About The Course</h2>
+                    <p class="about-para">
+                        The hospital industry in India is accounting for 80% of the total healthcare market and is
+                        witnessing a huge investor demand from both global as well as domestic investors. The hospital
+                        industry is expected to reach $ 132 bn by 2023 from $ 61.8 bn in 2017; growing at a CAGR of
+                        16-17%. The course BBA-Hospital management is a three year full time programme wherein the
+                        students get to know on how a Hospital operates and the role of Administration in hospital and
+                        allied health services. BBA in Hospital Management course covers general management subjects.
+                        Along with them, the course also covers subjects related to the field of healthcare and hospital
+                        management.
+
+                    </p>
+                    <table class="table table-striped my-5 my-5">
+                        <tr>
+                            <td class="td-header">Course Level</td>
+                            <td class="td-para">Graduation</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Duration</td>
+                            <td class="td-para">3 years</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Approving Authority</td>
+                            <td class="td-para">Affiliated to M.A.K.A.U.T (
+                                Formerly W.B.U.T)</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Eligibility</td>
+                            <td class="td-para">
+                                Graduation in any stream
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Admission Process</td>
+                            <td class="td-para">Merit based direct admission and/or
+                                a valid CET rank
+                            </td>
+                        </tr>
+                    </table>
+                    <h2 class="about-heading">Career Prospects</h2>
+                    <p class="about-para">The career prospects of an BBA-Hospital Management
+                        program at SKFGI would have to undergo a rigorous academic engagement with parallel exposure to
+                        hospitals for real time situational learning. The students would be able to comfortably work on
+                        health care delivery systems along with the associated legal and regulatory environmental
+                        factors. The course makes the students ready to handle managerial positions with the capacity of
+                        assessing current needs and recommending appropriate solutions. This course at SKFGI also
+                        prepares the students to demonstrate leadership skills and face challenges of the dynamic nature
+                        of health care administration.<br>
+                    </p>
+                    <strong>Most common sectors and jobs after BBA-Hospital Management are as follows:</strong>
+
+                    <ul class="hero-ul">
+                        <li><i class="fa fa-check-square-o"></i> Medical Superintendant</li>
+                        <li><i class="fa fa-check-square-o"></i> Adminsitrative Officer</li>
+                        <li><i class="fa fa-check-square-o"></i> Operation Executive</li>
+                        <li><i class="fa fa-check-square-o"></i> Patient Care Assistants</li>
+                        <li><i class="fa fa-check-square-o"></i> Clinical Adminstrrators</li>
+                    </ul>
+                    <br><br>
+                </div>
+                <div id="bo">
+                    <h1 class="hero-main-heading mb-5"><i class=" icon fa fa-book"></i> Bachelor Of Optometry</h1>
+                    <h2 class="about-heading">About The Course</h2>
+                    <p class="about-para">
+                        According to the definition of World Council of Optometry (WCO), an organization that represents
+                        optometrists worldwide, “optometrists are the primary healthcare practitioners of the eye and
+                        visual system who provide comprehensive eye and vision care, which includes refraction and
+                        dispensing, detection/diagnosis and management of disease in the eye, and the rehabilitation of
+                        conditions of the visual system”. While, an estimated 456 million people in India require vision
+                        correction (spectacles, contact lenses or refractive surgery) to be able to see and function,
+                        the demand for optometrists is very high and is expected to rise further in the coming years.
+                        With enormous job opportunities in India and abroad, Optometry has come out as a lucrative
+                        carrier option through which financial growth, social respect, and professional satisfaction can
+                        be achieved.
+                    </p>
+                    <table class="table table-striped my-5 my-5">
+                        <tr>
+                            <td class="td-header">Course Level</td>
+                            <td class="td-para">Graduation</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Duration</td>
+                            <td class="td-para">3 years</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Approving Authority</td>
+                            <td class="td-para">Affiliated to M.A.K.A.U.T (
+                                Formerly W.B.U.T)</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Eligibility</td>
+                            <td class="td-para">
+                                10+2 in Physics,Chemistry & ( Biology or Math ) as a subject from a recognized board.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Admission Process</td>
+                            <td class="td-para">Merit based direct admission and/or
+                                a valid CET rank
+                            </td>
+                        </tr>
+                    </table>
+                    <h2 class="about-heading">Bachelor in Optometry and Vision Science at SKFGI:</h2>
+                    <p class="about-para">The students in the Bachelor of Optometry program at SKFGI would be exposed to
+                        a very specialized environment of learning which is based on well equipped class rooms,
+                        laboratories on optics and clinical diagnosis. In total four years of optometry trainings, the
+                        initial three years would comprise of class room teaching, lab oriented training, hand-on with
+                        optometry instruments, observation of real case studies, industrial visits, conferences and
+                        works shops. To increase the quality of diagnosis of the students, an in-house optometry clinic
+                        has been set where variety of optometry specialties including comprehensive eye care, contact
+                        lens, low vision rehabilitation, binocular vision can be practiced.<br>In the final year of
+                        training, the student would be placed at tertiary eye care hospitals for clinical internship.
+                        Furthermore, students would be given opportunity to understand and participate in vision
+                        researches under the guidance of experienced mentors, competent in optometry and ophthalmology
+                        researches. Thus, an alumnus of SKFGI- Optometry, would not only be academically and clinically
+                        competent, but would also possess strong understanding of vision researches.
+                        <br>
+                    </p>
+                    <strong>Placements :</strong>
+                    <br>
+                    <p class="about-para">They can work in eye hospitals, eye care organizations, optical chains, vision care industries,
+                        contact lens companies. Optometrists can also seek employment with any multinational
+                        organization dealing with eye care</p>
+                </div>
+                <br><br>
+                <div id="bmlt">
+                    <h1 class="hero-main-heading mb-5"><i class=" icon fa fa-book"></i> Bachelor Of Medical Laboratory
+                        Technology</h1>
+                    <h2 class="about-heading">About The Course</h2>
+                    <p class="about-para">
+                        This course is specifically meant for the professionals who want to make a career in diagnostic
+                        science and opting to know more about the national and international standards of the laboratory
+                        in detail. The course aims to provide the candidate with adequate knowledge and skills to carry
+                        out routine and some sophisticated laboratory diagnostic procedures. Students would acquire
+                        theoretical knowledge related to the principles of the laboratory exercises and will also learn
+                        to to deal with new advances in instrumentation, methodology or standardization, Management of
+                        Laboratories, Standard Protocols and use of technology that is related to Laboratory
+                        Investigations.<br>Medical laboratory technologists do routine laboratory testing under
+                        stipulated conditions. Technologists may prepare specimens and operate machines that
+                        automatically analyze samples. The medical technologists are an integral part of the medical
+                        profession and get involved in practical and technical work to aid correct diagnosis and in the
+                        effective functioning of Biochemical Laboratories.
+                    </p>
+                    <table class="table table-striped my-5 my-5">
+                        <tr>
+                            <td class="td-header">Course Level</td>
+                            <td class="td-para">Graduation</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Duration</td>
+                            <td class="td-para">4 years</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Approving Authority</td>
+                            <td class="td-para">Affiliated to M.A.K.A.U.T (
+                                Formerly W.B.U.T)</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Eligibility</td>
+                            <td class="td-para">
+                                10+2 in Science stream ( Mathematics or Biology) with English as a subject from a
+                                recognized board.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Admission Process</td>
+                            <td class="td-para">Merit based direct admission and/or
+                                a valid CET rank
+                            </td>
+                        </tr>
+                    </table>
+                    <h2 class="about-heading">Career Prospects</h2>
+                    <p class="about-para">The career prospects in this field depend on the academic and technical skills
+                        of the technologist. These days with the growth in the private sector there are so many private
+                        hospitals, nursing homes, blood banks, pathology laboratories etc. the demand for laboratory
+                        technologists is on the up-swing.
+                        <br>
+                    </p>
+                    <strong>They can work as: </strong>
+                    <ul class="hero-ul">
+                        <li><i class="fa fa-check-square-o"></i> Lab Technician</li>
+                        <li><i class="fa fa-check-square-o"></i> R&D Lab Assistant</li>
+                        <li><i class="fa fa-check-square-o"></i> Junior Technical Executive</li>
+                        <li><i class="fa fa-check-square-o"></i> Lab Medicine Technician</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../../Assets/js/popper.min.js"></script>
+    <script src="../../Assets/js/bootstrap.min.js"></script>
+    <script src="../../Assets/js/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+        var header = document.getElementById("list-li");
+        var btns = header.getElementsByTagName(a);
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("open");
+                current[0].className = current[0].className.replace(" open", "");
+                this.className += " open";
+            });
+        };
+    </script>
+</body>
+
+</html>

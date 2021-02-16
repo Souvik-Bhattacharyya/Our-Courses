@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitality</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../Assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="hospital.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                        <a aria-current="page" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--wrapper start-->
+    <div class="wrapper">
+        <!--sidebar start-->
+        <button type="button" id="sidebarCollapse" class="btn btn-primary"><i style=" font-size: 20px;"
+                class="fa fa-chevron-right"></i>
+        </button>
+        <div id="sidebar" class="nav-inner">
+            <div class="accordion" id="accordionExample">
+                <div class="heading">Sub Menu</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Engineering
+                        </a>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="../../eng.html" class="active navbar-link">Computer Science</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Electrical</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Civil</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Electronics</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../../eng.html">Mechanical</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Management & Tech
+                        </a>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">MBA</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">BBA</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">BCA</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">Cyber Security</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Manage/manage.html">Multimedia, Animation & Graphics</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Health Care
+                        </a>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="#../Health/health.html">Hospital Management</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Health/health.html">Bachelor of Optometry</a>
+                            </li>
+                            <li class="li-list">
+                                <a href="../Health/health.html">Medical Lab Technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <a class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Hospitality
+                        </a>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <ul class="accordion-body">
+                            <li class="li-list">
+                                <a href="#hha">Hospitality & Hotel Administration</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sidebar end-->
+
+        <div id="content">
+            <div class="manage">
+                <div id="hha" class="mt-5">
+                    <h1 class="hero-main-heading"><i class=" icon fa fa-book"></i>BSC - Hospitality & Hotel Administration
+                    </h1>
+                    <h2 class="about-heading mt-5">About The Course</h2>
+                    <p class="about-para">
+                        Hospitality being a global industry, gives a student a thriving profession which has enormous
+                        scope of career building, growth and stability. Hotel industry is not only a great source of
+                        employment, but also a great contributor in a development and growth of a country’s economy.
+                        This 3 year course of hotel management enables a student in exploring a new world of hospitality
+                        industry which includes hotels, resorts, restaurants, bars, cruise liners, aviation, event
+                        management, retails and many more sectors. Acquired knowledge and skill will provide students to
+                        choose their career option of being hotel-restaurant managers, chefs, bar tenders, front office
+                        and accommodation managers among many.
+                        <br>
+                        Backed by perfect blend of industry and academic expertise, the forte of the hospitality
+                        department is its industry – academia liaison. The curriculum includes practical training at the
+                        state-of-the-art laboratories designed at per with international standards.
+                        With a vision of making it a center of excellence, the Institute is committed to provide
+                        national and international training and placement assistance with no extra cost to students.
+
+
+                    </p>
+                    <table class="table table-striped my-5 my-5">
+                        <tr>
+                            <td class="td-header">Course Level</td>
+                            <td class="td-para">Graduation</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Duration</td>
+                            <td class="td-para">3 years</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Approving Authority</td>
+                            <td class="td-para">Affiliated to M.A.K.A.U.T
+                                (Formerly W.B.U.T)</td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Eligibility</td>
+                            <td class="td-para">
+                                10+2 in any stream with English as a subject from a recognized board.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-header">Admission Process</td>
+                            <td class="td-para">Merit based direct admission and/or
+                                a valid CET rank
+                            </td>
+                        </tr>
+                    </table>
+                    <h2 class="about-heading">Career Prospects</h2>
+                    <p class="about-para mb5">The curriculum aims at holistic development of students to prepare them to
+                        take up the leadership role in the industry and withstand the pressure of the business world.<br>
+                    </p>
+                    <strong>The passed-out students can make their career in :- </strong>
+
+                    <ul class="hero-ul">
+                        <li><i class="fa fa-check-square-o"></i> Hotels / Motels / Resorts</li>
+                        <li><i class="fa fa-check-square-o"></i> Restaurants / Bars</li>
+                        <li><i class="fa fa-check-square-o"></i> Cruise liners</li>
+                        <li><i class="fa fa-check-square-o"></i> Aviation industry</li>
+                        <li><i class="fa fa-check-square-o"></i> Railway Catering</li>
+                        <li><i class="fa fa-check-square-o"></i> Retail Industry</li>
+                        <li><i class="fa fa-check-square-o"></i> Event Management</li>
+                        <li><i class="fa fa-check-square-o"></i> Amusement Parks</li>
+                        <li><i class="fa fa-check-square-o"></i> Banking & Insurance Sector</li>
+                        <li><i class="fa fa-check-square-o"></i> BPO</li>
+                        <li><i class="fa fa-check-square-o"></i> Travel Agency</li>
+                    </ul>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../Assets/js/popper.min.js"></script>
+        <script src="../../Assets/js/bootstrap.min.js"></script>
+        <script src="../../Assets/js/jquery-3.5.1.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                });
+            });
+
+            var header = document.getElementById("list-li");
+            var btns = header.getElementsByTagName(a);
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("open");
+                    current[0].className = current[0].className.replace(" open", "");
+                    this.className += " open";
+                });
+            };
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+Work Sans
+#E87241
+#b63b4d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="left-sidebar" id="mySidebar">
+            <div>
+                <ul id="accordion" class="accordion">
+                    <li class="accordion-item" style="list-style: none;">
+                        <h2 class="accordion-header" id="hedingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                title="First Time Double Click To Open" data-bs-placement="top">
+                                Engineering
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <ul class="submenu accordion-body">
+                                <li><a href="#cse" class="active">Computer Science</a></li>
+                                <li><a href="#ece">Electrical</a></li>
+                                <li><a href="#">Civil</a></li>
+                                <li><a href="#">Electronics & Communication</a></li>
+                                <li><a href="#">Mechanical</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="list-style: none;" class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                title="First Time Double Click To Open" data-bs-placement="top">
+                                Management & Technology
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <ul class="submenu accordion-body">
+                                <li><a href="#">MBA</a></li>
+                                <li><a href="#">BBA</a></li>
+                                <li><a href="#">BCA</a></li>
+                                <li><a href="#">Cyber Security</a></li>
+                                <li><a href="#">Multimedia,Animation & Graphics</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="list-style: none;" class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                title="First Time Double Click To Open" data-bs-placement="top">
+                                Health Care
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <ul class="submenu accordion-body">
+                                <li><a href="#">Hospital Management</a></li>
+                                <li><a href="#">Bachelor of Optometry</a></li>
+                                <li><a href="#">Medical Lab Technology</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="list-style: none;" class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                                title="First Time Double Click To Open" data-bs-placement="top">
+                                Hospitality
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <ul class="submenu accordion-body">
+                                <li><a href="#">Hospitality & Hotel Administration</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+
+
+.left-sidebar {
+    position: relative;
+    width: 300px;
+    background: #fff;
+    transition: 0.6s;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 30px 0;
+}
+.accordion {
+    color: #000;
+    padding: 0;
+}
+.accordion li {
+    list-style-type: none;
+    color: #4d4d4d;
+}
+.accordion li:last-child {
+    border-bottom: 0;
+}
+.accordion-item .accordion-header{
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: .5px;
+    font-weight: 800;
+    color: #222222;
+    border-radius: 0;
+    position: relative;
+    transition: all 0.4s ease;
+}
+.accordion-button {
+    border-radius: 2px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+    padding: 1rem 5px!important;
+    font-size: 12px;
+    color: #212529;
+    background-color: transparent;
+    overflow-anchor: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all .25s ease;
+    border-radius: 0%!important;
+}
+.accordion-button:active, .accordion-button:hover{
+    color: #000;
+    border-radius: 0;
+}
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed)::after {
+    color: #b63b4d;
+    background-color: #ffffff;
+    border-radius: 0;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-bottom: none;
+}
+.accordion li i {
+    font-size: 14px;
+    float: right;
+    padding-right: 10px;
+}
+.submenu{
+    font-size: 12px;
+    background: #c3c0ff56;
+    padding: 0;
+    font-weight: bolder;
+    border-left: 3px solid #e8734164;
+    transition: .25s ease;
+    border-radius: 2px;
+}
+.submenu a{
+    display: block;
+    text-decoration: none;
+    color: #4d4d4d;
+    padding: 12px;
+    padding-left: 35px;
+    transition: all 0.25s ease;
+    background-color: #f6f6ff;
+    text-transform: capitalize;
+}
+.submenu a:hover{
+    background: #e8e8e8;
+    color: #4d4d4d;
+    transition: none;
+    border-right: 3px solid #E87241;
+    border-radius: 5px;
+    letter-spacing: .5px;
+    transition: all 0.15s ease;
+}
+.left-sidebar::-webkit-scrollbar {
+    width: 8px;
+    
+  }
+  .left-sidebar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .left-sidebar::-webkit-scrollbar-thumb {
+    background-color: rgb(121, 121, 121);
+    outline: 1px solid rgb(225, 225, 225);
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Sidebar -->
+    <!-- <script type="text/javascript">
+            $(function() {
+                var Accordion = function(el, multiple) {
+                this.el = el || {};
+                this.multiple = multiple || false;
+                
+                var links = this.el.find('.link');
+                
+                links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+                }
+                
+                Accordion.prototype.dropdown = function(e) {
+                var $el = e.data.el;
+                $this = $(this),
+                $next = $this.next();
+                
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+                
+                if (!e.data.multiple) {
+                $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+                };
+                }
+                
+                var accordion = new Accordion($('#accordion'), false);
+                });
+        </script> -->
+
+
+
+
+
+    <!-- NAV BAR SCROLL ANIMATION -->
+    <!-- <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script> -->
